@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: develop
+          uri: https://github.com/Fun-Team-UPC/Config-Server
