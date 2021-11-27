@@ -10,7 +10,8 @@ spring:
           uri: https://github.com/Fun-Team-UPC/ILanguage-config-data.git
           searchPaths:
           username: ${GIT_USER}
-          password: ${GIT_PASSWORD}
+          password: ${TOKEN}
+          
 
   security:
     user:
