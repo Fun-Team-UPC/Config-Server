@@ -7,7 +7,11 @@ spring:
       server:
         git:
           default-label: main
-          uri: https://github.com/Fun-Team-UPC/spring-cloud-config-data
+          uri: https://github.com/Fun-Team-UPC/ILanguage-config-data.git
+          searchPaths:
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+
   security:
     user:
       name: root
